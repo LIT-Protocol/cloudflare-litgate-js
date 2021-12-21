@@ -25,7 +25,7 @@ async function handleRequest(request) {
   try {
     const { payload, header, signature, verified } = await verifyJwt(jwt)
 
-    // LIT Developers: change this to the baseURL you are authenticating, path, and other params in the payload
+    // LIT Developers: change this to the baseUrl you are authenticating, path, and other params in the payload
     // so that they match the resourceId that you used when you saved the signing condition to the Lit Protocol
     if (
       !verified ||
