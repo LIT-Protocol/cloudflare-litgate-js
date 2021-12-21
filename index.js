@@ -23,7 +23,7 @@ async function handleRequest(request) {
     'https://cdn.cloudflare.steamstatic.com/steam/apps/256843487/movie480_vp9.webm?t=1626712506'
 
   try {
-    const { payload, header, signature, verified } = await verifyJwt(jwt)
+    const { payload, header, signature, verified } = await verifyJwt({ jwt })
 
     // LIT Developers: change this to the baseUrl you are authenticating, path, and other params in the payload
     // so that they match the resourceId that you used when you saved the signing condition to the Lit Protocol

@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@noble/bls12-381/-/bls12-381-1.0.1.tgz#7945f61e2067ddc75b2a22a947b1b0c60290d1d5"
   integrity sha512-kZbZMEvXiosdAWTdfMUBRK8Gbk9jz6b7Psv1ciGfdxZ8yG9tMef+jgyCpdT/FdgI4e+e7KnE5QtrfjZmeIZA6Q==
 
-lit-jwt-verifier@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/lit-jwt-verifier/-/lit-jwt-verifier-1.0.1.tgz#59a7c60cf30f989cb0c406b5b761bb594162ecc3"
-  integrity sha512-7naQ9HdhZGZMZNgzaxkPicFbfk7oOZcoqeEgUtKY7PR+sXgfS9N/lzNoEmcjQUwBQnTw/5BACjOwYyhe0FFiFQ==
+lit-jwt-verifier@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/lit-jwt-verifier/-/lit-jwt-verifier-1.0.2.tgz#eab2972f9fe7e7646c2eabcec42431699bcab47f"
+  integrity sha512-RxmMIWDvoF2xUxQGZUsHr5WdPMYxqPT8PEJOJ9pMmXBP5EppF+JqNjJfes7QS8N5z/2jK93dT0sKaNsJjiXOvA==
   dependencies:
     "@noble/bls12-381" "^1.0.1"
     uint8arrays "^3.0.0"
